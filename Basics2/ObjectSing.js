@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()  // singleton---> only one object can be created, we can not create multiple objects
+const tinderUser = {} // object literal---> no singleton, can create multiple objects
 
 tinderUser.id = "123abc"
 tinderUser.name = "aadi"
@@ -54,7 +54,8 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-
+// Destructuring objects- > it is a special syntax that allows us to extract values from objects and assign them to variables
+//  in a more concise and readable way.
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -68,12 +69,21 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+// JASOn format is a way to represent data in a structured format. It is a lightweight data-interchange format that is easy
+//  for humans to read and write, and easy for machines to parse and generate. JSON stands for JavaScript Object Notation, 
+// and it is based on a subset of the JavaScript programming language. JSON is commonly used for transmitting data between a
+//  server and a web application, as well as for storing data in files or databases. JSON data is represented as key-value pairs,
+//  where the keys are strings and the values can be of any data type, including objects and arrays.
+
+
+//object form 
 // {
 //     "name": "aadi",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+// array form 
 [
     {},
     {},
