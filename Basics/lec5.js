@@ -3,6 +3,9 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
+// ${} is used to embed expressions in a string. It is a feature of template literals, which are enclosed in backticks (`)
+//      instead of single or double quotes.
+
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('aadi-hc-com')
