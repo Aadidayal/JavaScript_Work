@@ -40,6 +40,8 @@ JsUser.email = "aadi@microsoft.com"
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
+// HERE this(this.name ) keyword is used to access the properties of the current object. 
+// In this case, it refers to the JsUser object, so this.name will access the name property of the JsUser object.
 JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
